@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T3ch Hefty | Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body id="body" data-mode="normal">
+   <!-- <button>🌗</button> <br> -->
+
+
+<div class="calculator_container">
+
+    <!-- calculator Screen -->
+    <div class="screen">
+        <!-- <input type="text" name="" id="result_screen" placeholder="0"> -->
+        <p id="result_screen">0</p>
+
+    </div>
+
+
+    <div class="button_groups">
+        <button onclick="clearScreen()">AC</button>
+        <button onclick="clearBlack()">⇍</button>
+        <button onclick="show('%')">&percnt;</button>
+        <button class="circled" onclick="show('/')">&divide;</button>
+        <button onclick="show(7)">7</button>
+        <button onclick="show(8)" >8</button>
+        <button onclick="show(9)" >9</button>
+        <button class="circled" onclick="show('*')">&times;</button>
+        <button onclick="show(4)" >4</button>
+        <button onclick="show(5)">5</button>
+        <button onclick="show(6)" >6</button>
+        <button class="circled" onclick="show('-')">&minus;</button>
+        <button onclick="show(1)">1</button>
+        <button onclick="show(2)" >2</button>
+        <button onclick="show(3)" >3</button>
+        <button class="circled" onclick="show('+')">&plus;</button>
+        <button id="btn">🌗</button>
+        <button onclick="show(0)">0</button>
+        <button class="dot">&period;</button>
+        <button class="circled blue" onclick="calculate()">&equals;</button>
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>
